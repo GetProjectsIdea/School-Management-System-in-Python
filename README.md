@@ -1,20 +1,55 @@
-# School-Management-System-in-Python
-In this Project [School Management System in Python](https://getprojects.org/create-school-management-system-in-python/), we will build a GUI-based School Management System using the Tkinter, SQLite3, and TkCalender libraries and messagebox and Ttk modules of the Tkinter library. It is an intermediate level project, where you will learn how to use databases and make some great GUIs in Python and apply them in real life. Let’s start!
+# 🏫 Desktop School Management System in Python (Tkinter & SQLite3)
 
-# About School Management System
-School Management Systems manage all the information of the students and/or faculty in a particular school.
+<div align="center">
 
-In our project, we will only use it to manage some basic personal information of the students of a school.
+[![Tutorial](https://img.shields.io/badge/Full%20Tutorial-GetProjects.org-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://getprojects.org/create-school-management-system-in-python/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![GUI](https://img.shields.io/badge/GUI-Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/library/tkinter.html)
+[![Database](https://img.shields.io/badge/Database-SQLite3-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-# About the project:
-The objective of this is to create a GUI based School Management System. To build this, you will need intermediate understanding of Tkinter library and SQLite API and basic understanding of TkCalender, Datetime libraries, messagebox and Ttk modules.
+<br/>
 
-# Project Prerequisites:
-To build this project, we will need the following libraries:
+**A standalone offline desktop School Information & Record Management application developed with Python Tkinter, ttk widgets, TkCalendar, and SQLite3 database.**
 
-1. Tkinter – To create the GUI.
-2. SQLite3 – To connect the program to the database and store information in it.
-3. TkCalender – To get the user to enter a date.
-4. Datetime.date – To convert the date from the tree to a Datetime.date instance so that it can be set in.
-5. Tkinter.messagebox – To show a display box, displaying some information or an error.
-6. Tkinter.ttk – To create the tree where all the information will be displayed.
+</div>
+
+---
+
+> 📖 **Read Full Step-by-Step Tutorial**: [How to Build School Management System in Python on GetProjects.org](https://getprojects.org/create-school-management-system-in-python/)
+
+---
+
+## 🖥️ Key Features
+- 📋 **Student Record CRUD**: Add, update, view, and delete student academic records.
+- 📅 **Date Picker Integration**: Calendar widget via `tkcalendar` for DOB and admission dates.
+- 🔍 **Search & Filter**: Real-time filtering by roll number or student name.
+- 💾 **Local SQLite3 Persistence**: Zero configuration, auto-creates local database file.
+
+---
+
+## 🚀 Installation & Running
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/GetProjectsIdea/School-Management-System-in-Python.git
+cd School-Management-System-in-Python
+```
+
+### 2. Install Required Packages
+```bash
+pip install tkcalendar
+```
+
+### 3. Run Application
+```bash
+python School_Management_System.py
+```
+
+---
+
+<div align="center">
+
+Maintained by **[GetProjects.org](https://getprojects.org)** • Curated by [@pardeeppatel](https://github.com/pardeeppatel)
+
+</div>
